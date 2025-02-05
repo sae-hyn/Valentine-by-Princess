@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe5e5;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.tenor-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tenor-gif-embed {
+  max-width: 250px; /* Ensures visibility */
+  height: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  box-shadow: 0.5rem 1rem 3rem rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: bold;
+}
